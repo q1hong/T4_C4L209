@@ -17,30 +17,30 @@ Ambas estructuras se prueban desde `main.c` mediante funciones `test_stack()` y 
 ---
 
 ## Estructura del Proyecto
-
-├── main.c
-├── stack.c
-├── stack.h
-├── linked_list.c
-├── linked_list.h
-├── Makefile
-└── README.md
+.
+├── main.c 
+├── stack.c 
+├── stack.h 
+├── linked_list.c 
+├── linked_list.h 
+├── Makefile 
+└── README.md 
 
 
 ---
 
 ## Compilación
 
-- ** Manualmente **
+- Manualmente 
   
 gcc -DTEST_STACK -DTEST_LIST -o tarea4 main.c stack.c linked_list.c
 
-- ** Con Makefile **
+- Con Makefile 
 
 make            # Compila todo
 make clean      # Borra el ejecutable
 
-- ** Ejecución **
+- Ejecución 
 
 ./tarea4
 
